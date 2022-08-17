@@ -1,0 +1,86 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+htnl,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+section#tela{
+    width: 100vw;
+    height: 100vh;
+    background-color: #112989;
+    display: flex;
+    align-items: center;
+  flex-direction: column;
+}
+
+ section#tela .card {
+    width: 40vw;
+    height: 90vh;
+    background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);
+    border: none;
+    position: relative;
+    margin: auto;
+    font-family: inherit;
+    border-radius: 10%;
+    box-shadow: inset 0 0 1em rgb(21, 11, 105), 0 0 1em rgb(0, 123, 255);
+   }
+   
+   .card span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 2rem;
+   }
+   
+   .card .job {
+    font-weight: 400;
+    color: white;
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 29px;
+   }
+   
+   .card .img {
+    width: 150px;
+    height: 150px;
+    background: #e8e8e8;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 20px;
+   }
+   .card .img img{
+    width: 150px;
+    height: 150px;
+    background: #e8e8e8;
+    border-radius: 100%;
+    margin: auto;
+   }
+   .card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background: #e8e8e8;
+    color: #111111;
+    font-weight: 600;
+    height: 9vh;
+    width: 15vw;
+   }
+   
+   .card button:hover {
+    background: #212121;
+    color: #ffffff;
+   }
+   .card button a{
+   text-decoration: none;
+   font-size: 20px;
+   }
