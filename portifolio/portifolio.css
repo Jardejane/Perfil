@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #090465;
+}
+
+section#page-principal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 1rem;
+}
+h1{
+   font-size: 3rem;
+   color:rgb(160, 20, 240);
+}
+section#page-principal section#page-one{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 1rem;
+}
+section#page-principal section#page-one section.sobre{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+ 
+section#page-principal section#page-one section.sobre h2{
+    font-size: 2rem;
+   color: rgb(213, 14, 207);
+ }
+ section#page-principal section#page-one section.sobre p{
+    font-size: 1.3rem;
+    color: rgb(167, 144, 144);
+ }
+ 
+ section#page-principal section#page-one section.sobre h3{
+    font-size: 1.4rem;
+    color: rgb(11, 10, 10);
+ }
+ section#page-principal section#page-one section.sobre div{
+   padding: 1rem;
+ }
+ hr {
+    height: 10px;
+    background-color:#591e4f;
+    border: none;
+}
+
+section#page-two{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+section#page-two h2{
+    font-size: 3rem;
+    padding: 2rem;
+    color: beige;
+}
+section#page-two div img{
+   height: 20vh;
+}
+section#page-three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+section#page-three section#projeto-js{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+section#page-three h3{
+    font-size: 3rem;
+    color: aliceblue;
+    padding: 2rem;
+}
+section#page-three section#projeto-js div.proje-js{
+    padding: 1rem;
+}
+section#page-three section#projeto-js div.proje-js img{
+    height: 30vh;
+}
+section#page-three section#projetos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:baseline;
+    align-content: center;
+}
+section#page-three section#projetos div{
+  width: 25vw;
+  padding: 1rem;
+}
+section#page-three section#projetos div h4 {
+ font-size: 2rem;
+ color: #b13f9e;
+ padding: 1rem;
+}
+section#page-three section#projetos div p{
+font-size: 1.7rem;
+color: rgb(167, 144, 144);
+padding: 1rem;
+}
+button {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    
+   }
+   
+   button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #71878e;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+   }
+   
+   button span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #d8e2ec;
+   }
+   
+   button svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #082c50;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   button:hover:before {
+    width: 100%;
+    background: #3399b8;
+   }
+   
+   button:hover svg {
+    transform: translateX(0);
+   }
+
+section#contato-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    padding: 2rem;
+}
+section#contato-section h4{
+    font-size: 3rem;
+    color: aliceblue;
+    padding: 1rem;
+}
+section#contato-section a img{
+    height: 10vh;
+    width: 20vw;
+    padding:2px;
+}
+section#contato-section h5{
+    font-size: 2rem;
+    padding: 1rem;
+    color: aliceblue;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
