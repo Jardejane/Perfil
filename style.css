@@ -164,6 +164,7 @@ section#tela .card {
 @media screen and (min-width: 356px) and (max-width:589px) {
   section#tela .card {
     width: 70vw;
+    height: 80vh;
   }
 
   .card span {
