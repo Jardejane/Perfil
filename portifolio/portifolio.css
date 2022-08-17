@@ -221,3 +221,90 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    section#page-principal section#page-one  div#im{
+       display: none;
+    }
+    section#page-three section#projetos div {
+        width: 30vw;
+        padding: 1rem;
+    }
+ 
+}
+
+@media screen and (min-width: 590px) and (max-width: 768px) {
+    h1{
+        font-size: 2.4rem;
+    }
+    section#page-principal section#page-one  div#im{
+        display: none;
+     }
+     section#page-two h2 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+    
+    section#page-two div img {
+        height: 15vh;
+    }
+    section#page-three h3 {
+        font-size: 2rem;
+        padding: 0rem;
+    }
+    section#page-three section#projetos {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    section#page-three section#projetos div {
+        width: 90vw;
+        padding: 1rem;
+    }
+    section#contato-section {
+        padding: 1rem;
+    }
+    section#contato-section h4 {
+        font-size: 2rem;
+        padding: 0.4rem;
+    }
+}
+
+@media screen and (min-width: 356px) and (max-width:589px) {
+    h1{
+        font-size: 2.4rem;
+    }
+    section#page-principal section#page-one  div#im{
+        display: none;
+     }
+     section#page-two h2 {
+        font-size: 1.7rem;
+        padding: 1rem;
+    }
+    
+    section#page-two div img {
+        height: 9vh;
+    }
+    section#page-three h3 {
+        font-size: 1.9rem;
+        padding: 0rem;
+    }
+    section#page-three section#projetos {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    section#page-three section#projetos div {
+        width: 90vw;
+        padding: 1rem;
+    }
+    section#contato-section {
+        padding: 1rem;
+    }
+    section#contato-section h4 {
+        font-size: 1.7rem;
+        padding: 0.4rem;
+    }
+}
