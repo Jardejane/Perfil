@@ -14,7 +14,7 @@ section#tela{
     background-color: #112989;
     display: flex;
     align-items: center;
-  flex-direction: column;
+    flex-direction: column;
 }
 
  section#tela .card {
@@ -84,3 +84,55 @@ section#tela{
    text-decoration: none;
    font-size: 20px;
    }
+
+@media screen and (min-width: 1024px) {
+  .card span {
+    font-size: 20px;
+   }
+   .card .job {
+    font-size: 20px;
+   }
+   .card button {
+    padding: 2px 2px;
+    height: 8vh;
+    width: 15vw;
+    margin-top: 20px;
+   }
+   .card button a{
+   font-size: 17px;
+   }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .card span {
+    font-size: 20px;
+   }
+   .card .job {
+    font-size: 20px;
+   }
+   .card button {
+    padding: 0px;
+    height: 8vh;
+    width: 15vw;
+    margin-top: 20px;
+   }
+   .card button a{
+   font-size: 17px;
+   }
+}
+@media screen and (max-width: 768px){
+  .card span {
+    font-size: 20px;
+   }
+   .card .job {
+    font-size: 20px;
+   }
+   .card button {
+    padding: 0px;
+    height: 8vh;
+    width: 15vw;
+    margin-top: 22px;
+   }
+   .card button a{
+   font-size: 17px;
+   }
+}
