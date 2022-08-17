@@ -1,138 +1,191 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-}
-htnl,body{
-    height: 100vh;
-    width: 100vw;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-section#tela{
-    width: 100vw;
-    height: 100vh;
-    background-color: #112989;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+htnl,
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
- section#tela .card {
-    width: 40vw;
-    height: 90vh;
-    background-image: linear-gradient(144deg,#8608b4, #492fed 60%,#bd6fda);
-    border: none;
-    position: relative;
-    margin: auto;
-    font-family: inherit;
-    border-radius: 10%;
-    box-shadow: inset 0 0 1em rgb(21, 11, 105), 0 0 1em rgb(0, 123, 255);
-   }
-   
-   .card span {
-    font-weight: 600;
-    color: white;
-    text-align: center;
-    display: block;
-    padding-top: 10px;
-    font-size: 2rem;
-   }
-   
-   .card .job {
-    font-weight: 400;
-    color: white;
-    display: block;
-    text-align: center;
-    padding-top: 5px;
-    font-size: 29px;
-   }
-   
-   .card .img {
-    width: 150px;
-    height: 150px;
-    background: #e8e8e8;
-    border-radius: 100%;
-    margin: auto;
-    margin-top: 20px;
-   }
-   .card .img img{
-    width: 150px;
-    height: 150px;
-    background: #e8e8e8;
-    border-radius: 100%;
-    margin: auto;
-   }
-   .card button {
-    padding: 8px 25px;
-    display: block;
-    margin: auto;
-    border-radius: 8px;
-    border: none;
-    margin-top: 30px;
-    background: #e8e8e8;
-    color: #111111;
-    font-weight: 600;
-    height: 9vh;
-    width: 15vw;
-   }
-   
-   .card button:hover {
-    background: #212121;
-    color: #ffffff;
-   }
-   .card button a{
-   text-decoration: none;
-   font-size: 20px;
-   }
+section#tela {
+  width: 100vw;
+  height: 100vh;
+  background-color: #112989;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+section#tela .card {
+  width: 40vw;
+  height: 90vh;
+  background-image: linear-gradient(144deg, #8608b4, #492fed 60%, #bd6fda);
+  border: none;
+  position: relative;
+  margin: auto;
+  font-family: inherit;
+  border-radius: 10%;
+  box-shadow: inset 0 0 1em rgb(21, 11, 105), 0 0 1em rgb(0, 123, 255);
+}
+
+.card span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  font-size: 2rem;
+}
+
+.card .job {
+  font-weight: 400;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 29px;
+}
+
+.card .img {
+  width: 150px;
+  height: 150px;
+  background: #e8e8e8;
+  border-radius: 100%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.card .img img {
+  width: 150px;
+  height: 150px;
+  background: #e8e8e8;
+  border-radius: 100%;
+  margin: auto;
+}
+
+.card button {
+  padding: 8px 25px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+  background: #e8e8e8;
+  color: #111111;
+  font-weight: 600;
+  height: 9vh;
+  width: 15vw;
+}
+
+.card button:hover {
+  background: #212121;
+  color: #ffffff;
+}
+
+.card button a {
+  text-decoration: none;
+  font-size: 20px;
+}
 
 @media screen and (min-width: 1024px) {
   .card span {
     font-size: 30px;
-   }
-   .card .job {
+  }
+
+  .card .job {
     font-size: 20px;
-   }
-   .card button {
+  }
+
+  .card button {
     padding: 2px 2px;
     height: 8vh;
     width: 15vw;
     margin-top: 23px;
-   }
-   .card button a{
-   font-size: 17px;
-   }
+  }
+
+  .card button a {
+    font-size: 17px;
+  }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .card span {
     font-size: 20px;
-   }
-   .card .job {
+  }
+
+  .card .job {
     font-size: 20px;
-   }
-   .card button {
+  }
+
+  .card button {
     padding: 0px;
     height: 8vh;
     width: 15vw;
     margin-top: 10px;
-   }
-   .card button a{
-   font-size: 17px;
-   }
+  }
+
+  .card button a {
+    font-size: 17px;
+  }
+
+  .card .img {
+    margin-top: 45px;
+
+  }
 }
-@media screen and (max-width: 768px){
+
+@media screen and (min-width: 590px) and (max-width: 768px) {
   .card span {
     font-size: 20px;
-   }
-   .card .job {
+  }
+
+  .card .job {
     font-size: 20px;
-   }
-   .card button {
+  }
+
+  .card button {
     padding: 0px;
     height: 8vh;
-    width: 15vw;
+    width: 19vw;
     margin-top: 10px;
+  }
+
+  .card button a {
+    font-size: 17px;
+  }
+  .card .img {
+    margin-top: 45px;
    }
-   .card button a{
-   font-size: 17px;
-   }
+}
+
+@media screen and (min-width: 356px) and (max-width:589px) {
+  section#tela .card {
+    width: 70vw;
+  }
+
+  .card span {
+    font-size: 20px;
+  }
+
+  .card .job {
+    font-size: 20px;
+  }
+
+  .card button {
+    padding: 0px;
+    height: 8vh;
+    width: 29vw;
+    margin-top: 15px;
+  }
+
+  .card button a {
+    font-size: 17px;
+  }
+
+  .card .img {
+    margin-top: 45px;
+  }
 }
