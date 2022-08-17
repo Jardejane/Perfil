@@ -87,7 +87,7 @@ section#tela{
 
 @media screen and (min-width: 1024px) {
   .card span {
-    font-size: 20px;
+    font-size: 30px;
    }
    .card .job {
     font-size: 20px;
@@ -96,7 +96,7 @@ section#tela{
     padding: 2px 2px;
     height: 8vh;
     width: 15vw;
-    margin-top: 20px;
+    margin-top: 23px;
    }
    .card button a{
    font-size: 17px;
@@ -113,7 +113,7 @@ section#tela{
     padding: 0px;
     height: 8vh;
     width: 15vw;
-    margin-top: 20px;
+    margin-top: 10px;
    }
    .card button a{
    font-size: 17px;
@@ -130,7 +130,7 @@ section#tela{
     padding: 0px;
     height: 8vh;
     width: 15vw;
-    margin-top: 22px;
+    margin-top: 10px;
    }
    .card button a{
    font-size: 17px;
