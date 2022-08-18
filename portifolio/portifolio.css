@@ -10,6 +10,7 @@ body {
     width: 100vw;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #090465;
+    overflow-x: hidden;
 }
 
 section#page-principal {
@@ -230,6 +231,9 @@ footer {
         width: 30vw;
         padding: 1rem;
     }
+    section#page-two div img {
+        height: 14vh;
+    }
  
 }
 
@@ -269,6 +273,17 @@ footer {
         font-size: 2rem;
         padding: 0.4rem;
     }
+    section#page-two div img {
+        height: 9vh;
+    }
+    section#page-three section#projeto-js div.proje-js img {
+        height: 30vh;
+    }
+    section#contato-section a img {
+        height: 7vh;
+        width: 22vw;
+        padding: 2px;
+    }
 }
 
 @media screen and (min-width: 356px) and (max-width:589px) {
@@ -284,11 +299,11 @@ footer {
     }
     
     section#page-two div img {
-        height: 9vh;
+        height: 5vh;
     }
     section#page-three h3 {
         font-size: 1.9rem;
-        padding: 0rem;
+        padding: 2rem;
     }
     section#page-three section#projetos {
         flex-direction: column;
@@ -306,5 +321,13 @@ footer {
     section#contato-section h4 {
         font-size: 1.7rem;
         padding: 0.4rem;
+    }
+    section#page-three section#projeto-js div.proje-js img {
+        height: 20vh;
+    }
+    section#contato-section a img {
+        height: 7vh;
+        width: 22vw;
+        padding: 2px;
     }
 }
